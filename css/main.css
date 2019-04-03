@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*this only affects padding and border; meaning when adding padding it will add inside of the box and not increase the width; BUT it will increase the width when using margin*/
+  }
+
+body, html{
+  width: 100%;
+  height: 100%;
+	font-family: 'Lato';
+	color: #ffffff;
+}
+
+body {
+	background-color: black;
+}
+
+#home {
+  width:100%;
+  height: 100%;
+  position: relative;
+	overflow: hidden;
+}
+
+.intro {
+  width:50%;
+  position: absolute;
+  top:50%;
+	left:50%;
+	padding: 20px;
+	transform: translate(-50%, -50%);
+}
+
+.text {
+  text-align: left;
+  font-size: 14pt;
+  background: -webkit-linear-gradient(white, #222222);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link {
+  font-size: 20pt;
+  text-align: center;
+  padding: 15px;
+}
+
+.link a{
+  text-decoration: none;
+  color: #F2448C;
+}
+
+.footer {
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 10pt;
+  color: #626262;
+}
